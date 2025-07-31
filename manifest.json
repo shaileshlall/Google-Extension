@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Jokes Extension",
+  "version": "1.0.0",
+  "description": "A simple jokes extension",
+  "action": {
+    "default_title": "Jokes Extension",
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "icons": {
+    "128": "logo.png",
+    "64": "logo.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
